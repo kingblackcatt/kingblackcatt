@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">King Black Catt</title>
+  <desc id="desc">Código, criação e automação. Gato preto animado em um cenário roxo e ciano.</desc>
+  <defs>
+    <linearGradient id="base" x2="1" y2="1"><stop stop-color="#151123"/><stop offset="1" stop-color="#080d17"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#c4a7ff"/><stop offset="1" stop-color="#5eead4"/></linearGradient>
+    <radialGradient id="purple"><stop stop-color="#8b5cf6" stop-opacity=".25"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="teal"><stop stop-color="#2dd4bf" stop-opacity=".16"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#b6a5ee" stroke-opacity=".055"/></pattern>
+  </defs>
+  <style>
+    .float{animation:float 6s ease-in-out infinite}.blink{transform-box:fill-box;transform-origin:center;animation:blink 7s infinite}.cursor{animation:cursor 1.2s steps(1) infinite}.dot{animation:pulse 3s ease-in-out infinite}
+    @keyframes float{50%{transform:translateY(-9px)}}@keyframes blink{0%,43%,47%,100%{transform:scaleY(1)}45%{transform:scaleY(.12)}}@keyframes cursor{50%{opacity:0}}@keyframes pulse{50%{opacity:.35}}
+    @media(prefers-reduced-motion:reduce){.float,.blink,.cursor,.dot{animation:none}}
+  </style>
+  <rect x="1" y="1" width="1198" height="388" rx="26" fill="url(#base)" stroke="#322b48"/>
+  <rect x="1" y="1" width="1198" height="388" rx="26" fill="url(#grid)"/>
+  <ellipse cx="860" cy="130" rx="340" ry="270" fill="url(#purple)"/>
+  <ellipse cx="1100" cy="340" rx="330" ry="210" fill="url(#teal)"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <circle cx="59" cy="53" r="4" fill="#5eead4" class="dot"/>
+    <text x="74" y="58" fill="#c4b5df" font-size="12" letter-spacing="3">CREATIVE MIND / BUILDER MODE</text>
+    <text x="53" y="136" fill="#f4efff" font-size="64" font-weight="750" letter-spacing="-3">KING BLACK</text>
+    <text x="53" y="208" fill="url(#accent)" font-size="74" font-weight="750" letter-spacing="-3">CATT<tspan class="cursor" fill="#5eead4">_</tspan></text>
+    <text x="57" y="250" fill="#b0a9c4" font-size="19" letter-spacing="1">código · criação · automação</text>
+  </g>
+  <g class="float">
+    <ellipse cx="934" cy="175" rx="150" ry="117" fill="none" stroke="#c4a7ff" stroke-opacity=".14" transform="rotate(-23 934 175)"/>
+    <ellipse cx="934" cy="175" rx="164" ry="126" fill="none" stroke="#5eead4" stroke-opacity=".12" transform="rotate(25 934 175)"/>
+    <circle cx="1088" cy="131" r="5" fill="#5eead4"/>
+    <circle cx="799" cy="246" r="4" fill="#c4a7ff"/>
+    <path d="M836 164L826 76 892 118Q936 101 978 119L1042 76 1033 166Q1069 239 1012 269Q934 304 856 270Q798 242 836 164Z" fill="#10101c" stroke="url(#accent)" stroke-width="3"/>
+    <path d="M842 111L848 150 875 129ZM1026 111L1017 150 993 129Z" fill="#a78bfa" opacity=".3"/>
+    <g class="blink" fill="#5eead4"><path d="M862 186Q885 169 908 186Q886 205 862 186Z"/><path d="M960 186Q983 169 1006 186Q984 205 960 186Z"/></g>
+    <g fill="#10101c"><ellipse cx="885" cy="186" rx="4" ry="14"/><ellipse cx="983" cy="186" rx="4" ry="14"/></g>
+    <path d="M926 215L935 223 944 215Z" fill="#c4a7ff"/>
+    <g fill="none" stroke="#827491" stroke-width="2" stroke-linecap="round"><path d="M935 223V231Q924 240 914 229M935 231Q945 240 955 229M877 219L817 211M877 231L814 235M993 219L1052 211M993 231L1056 235"/></g>
+    <text x="764" y="88" font-family="monospace" font-size="24" fill="#c4a7ff" opacity=".6">&lt;/&gt;</text>
+    <text x="1069" y="278" font-family="monospace" font-size="30" fill="#5eead4" opacity=".5">{ }</text>
+  </g>
+  <path d="M54 294H1146" stroke="#30283f"/>
+  <g font-family="Consolas,monospace" font-size="15"><text x="57" y="336" fill="#5eead4">&gt;</text><text x="80" y="336" fill="#c4b5df">ideia</text><text x="143" y="336" fill="#706682">→</text><text x="172" y="336" fill="#c4b5df">código</text><text x="246" y="336" fill="#706682">→</text><text x="275" y="336" fill="#c4b5df">ferramenta</text><text x="1144" y="336" text-anchor="end" fill="#847b97" font-size="12">@kingblackcatt</text></g>
+</svg>

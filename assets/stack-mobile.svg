@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="112" viewBox="0 0 400 112" role="img" aria-label="Python, JavaScript, Interfaces e Automação">
+ <g font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" text-anchor="middle">
+  <rect x="4" y="4" width="188" height="46" rx="14" fill="#161222" stroke="#3c2c59"/><text x="98" y="33" fill="#c4a7ff">{ }  Python</text>
+  <rect x="208" y="4" width="188" height="46" rx="14" fill="#171a1c" stroke="#3c3b30"/><text x="302" y="33" fill="#e9d89a">JS  JavaScript</text>
+  <rect x="4" y="62" width="188" height="46" rx="14" fill="#10201f" stroke="#21403c"/><text x="98" y="91" fill="#7ee7d4">◇  Interfaces</text>
+  <rect x="208" y="62" width="188" height="46" rx="14" fill="#161222" stroke="#3c2c59"/><text x="302" y="91" fill="#c4a7ff">↗  Automação</text>
+ </g>
+</svg>
