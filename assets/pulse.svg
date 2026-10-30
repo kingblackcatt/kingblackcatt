@@ -3,7 +3,7 @@
       <g font-family="Segoe UI,Arial,sans-serif">
         <circle cx="34" cy="39" r="4" fill="#5eead4"/>
         <text x="48" y="44" fill="#ddd2ee" font-size="14" font-weight="600">PUBLIC ACTIVITY / GITHUB</text>
-        <text x="1170" y="44" text-anchor="end" fill="#93869f" font-size="12">29.10.2026 · UTC</text>
+        <text x="1170" y="44" text-anchor="end" fill="#93869f" font-size="12">30.10.2026 · UTC</text>
         <g transform="translate(28 76)">
           <rect width="360" height="137" rx="18" fill="#ffffff" fill-opacity=".025" stroke="#302b40"/>
           <rect x="24" y="25" width="4" height="16" rx="2" fill="#c4a7ff"/>
